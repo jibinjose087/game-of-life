@@ -343,6 +343,7 @@
                                         <xmlOutput>true</xmlOutput>
                                     </configuration>
                                 </plugin>
+                                                          
                                 <plugin>
                                     <artifactId>maven-javadoc-plugin</artifactId>
                                     <version>2.9.1</version>
@@ -414,6 +415,11 @@
                                 <groupId>com.wakaleo.gameoflife</groupId>
                                 <artifactId>gameoflife-build</artifactId>
                                 <version>${project.version}</version>
+                            </dependency>
+                            <dependency>
+                            <groupId>org.sonarsource.scanner.maven</groupId>
+                                <artifactId>sonar-maven-plugin</artifactId>
+                                <version>3.2</version>
                             </dependency>
                         </dependencies>
                     </plugin>
